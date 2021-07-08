@@ -3,22 +3,22 @@ const mongoose = require('mongoose')
 
 const Schema = new mongoose.Schema({
     productName:{
-    Type: String,
+    type: String,
     required: true
 },
     productDescription:{
-    Type: String
+    type: String
 },
    productPrice:{
-    Type: Number,
+    type: Number,
     required: true
 },
     productQuantity:{
-    Type: Number,
+    type: Number,
     required: true
 },
     productImage:{
-    Type: String,
+    type: String,
 },
     username:{
     type: mongoose.Schema.Types.ObjectId,
@@ -27,4 +27,4 @@ const Schema = new mongoose.Schema({
 
 })
 
-module.exports = mongoose.model('User', Schema)
+module.exports = mongoose.model('Products', Schema)

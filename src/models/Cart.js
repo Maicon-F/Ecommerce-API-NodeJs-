@@ -12,25 +12,17 @@ const Schema = new mongoose.Schema({
 },
 
     address: {
-        street:{
             type: String,
             required: true
         },
-        number: {
-            type: String,
-            required: true
-        },
-        city: {
-            type: String,
-            required: true
-        },
-        payment: {
+
+    payment: {
             card: {
                 number: {
-                    type: String,
+                    type: String
                 },
                 cvc: {
-                    type: String,
+                    type: String
                 }
 
             }
@@ -38,8 +30,6 @@ const Schema = new mongoose.Schema({
         }
 
 
-    }
-
 })
 
-module.exports = mongoose.model('User', Schema)
+module.exports = mongoose.model('Cart', Schema)
