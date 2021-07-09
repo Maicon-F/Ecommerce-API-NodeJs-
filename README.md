@@ -7,7 +7,7 @@
 
 
 
-<h2>Sobre esse projeto: </h2>Trata-se de uma API bem básica para aprofundar meus conhecimentos em NODEJS.</h2>
+<h2>Sobre este projeto: </h2>Trata-se de uma API bem básica para aprofundar meus conhecimentos em NODEJS.</h2>
 
 
 <h2>Funcionalidades da aplicação</h2>
